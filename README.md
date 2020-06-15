@@ -1,22 +1,22 @@
 # TMWebServices
 *Prequisites for using our framework:
-        1.Download web.xml and place it in folder (\WEB-INF)
-        ---------------------------------------------------------------------------------------------------------------------
-        2.In \WEB-INF\classes folder create a file named ServiceConfiguration.conf 
-                                                             -Data in file must be in JSON format mentioned as below
-                                                              { packages:["package 1","package 2",..,"package n"] }
-                                                              where package1,package2,package3 are package names where your services                                                                    resides.
-        -----------------------------------------------------------------------------------------------------------------------
-        3.Dependencies to add in \WEB-INF\lib folder are as follows:
-                                                             -TMWebService.jar.
-                                                             -itext jar file. 
-                                                             -gson jar file.    
-                                                     Note:-Files are available above for downloading. 
- 
- --------------------------------------------------------------------------------------------------------------------------------------
+ 1 .Download web.xml and place it in folder (\WEB-INF)
+ 2.In \WEB-INF\classes folder create a file named ServiceConfiguration.conf 
+ -Data in file must be in JSON format mentioned as below
+ { 
+ packages:["package 1","package 2",..,"package n"] 
+ }
+ where package1,package2,package3 are package names where your services resides.
+ 3.Dependencies to add in \WEB-INF\lib folder are as follows:
+ -TMWebService.jar.
+ -itext jar file. 
+ -gson jar file.    
+ ote:-Files are available above for downloading. 
  
  
- *framework entities
+---------------------------------------------------------------------------------------------------------------------------------------- 
+ 
+*framework entities
         1.Interface:- WebServiceInterface (in package, com.thinking.machines.interfaces)
         2.Service Class:- TMService (in package, com.thinking.machines.servlets)
         3.Annotations:- a:- @Path(value) along with service Class and Method
