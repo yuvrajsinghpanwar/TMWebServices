@@ -1,5 +1,7 @@
 # TMWebServices
 *Prequisites for using our framework:</br>
+========================================================
+
  1 .Download web.xml and place it in folder (\WEB-INF)</br></br>
  2.In \WEB-INF\classes folder create a file named ServiceConfiguration.conf</br> 
  -Data in file must be in JSON format mentioned as below</br>
@@ -13,12 +15,12 @@
  -gson jar file.    </br> 
  Note:-Files are available above for downloading.(in WEB-INF/lib/*) </br></br>
  
- ====================================================================================================================================
  YOU CAN REFER TO ABOVE MENTIONED WEB-INF directory to understand these prequisites.
- ====================================================================================================================================
+ =====================================================================================
 ---------------------------------------------------------------------------------------------------------------------------------------- 
  
 *framework entities
+====================
         1.Interface:- WebServiceInterface (in package, com.thinking.machines.interfaces)</br>
         2.Service Class:- TMService (in package, com.thinking.machines.servlets)</br>
         3.Annotations:- a:- @Path(value) along with service Class and Method</br>
@@ -34,7 +36,8 @@
  
  
  *Helpfull funtionalities:-</br>
-       1.You can get report of your work done of usage of our framework by using url (..../service/report)</br>
+ ===============================
+      1.You can get report of your work done of usage of our framework by using url (..../service/report)</br>
               -As an result report will get save in WEB-INF\report folder as Service.pdf</br>
        2.While using our framework if any kind of mistake done than you can get upto it by browsing an pdf file get generated in \WEB-             INF\report folder named error.pdf which include errors with their occurence reasons.</br>
  
