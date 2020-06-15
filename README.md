@@ -1,10 +1,12 @@
 # TMWebServices
 *Prequisites for using our framework:
         1.Download web.xml and place it in folder (\WEB-INF)
+        ---------------------------------------------------------------------------------------------------------------------
         2.In \WEB-INF\classes folder create a file named ServiceConfiguration.conf 
                                                              -Data in file must be in JSON format mentioned as below
                                                               { packages:["package 1","package 2",..,"package n"] }
                                                               where package1,package2,package3 are package names where your services                                                                    resides.
+        -----------------------------------------------------------------------------------------------------------------------
         3.Dependencies to add in \WEB-INF\lib folder are as follows:
                                                              -TMWebService.jar.
                                                              -itext jar file. 
