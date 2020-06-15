@@ -11,9 +11,11 @@
  -TMWebService.jar.</br>
  -itext jar file. </br>
  -gson jar file.    </br> 
- Note:-Files are available above for downloading. </br></br>
+ Note:-Files are available above for downloading.(in WEB-INF/lib/*) </br></br>
  
- 
+ ====================================================================================================================================
+ YOU CAN REFER TO ABOVE MENTIONED WEB-INF directory to understand these prequisites.
+ ====================================================================================================================================
 ---------------------------------------------------------------------------------------------------------------------------------------- 
  
 *framework entities
